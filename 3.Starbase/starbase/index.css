@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(5, 1, 38);
+}
+
+#app {
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialised;
+    -moz-osx-font-smooting: grayscale;
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+
+.character-card {
+    border: 2px solid rgb(44, 26, 208);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
